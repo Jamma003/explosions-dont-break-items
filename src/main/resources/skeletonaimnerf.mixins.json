@@ -3,7 +3,7 @@
 	"package": "net.jamma003.skeletonarrownerf.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+      "SkeletonArrowNerfMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
