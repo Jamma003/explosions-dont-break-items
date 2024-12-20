@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class SkeletonArrowNerf implements ModInitializer {
-	public static final String MOD_ID = "jamma003skeletonaimnerf";
+	public static final String MOD_ID = "jamma003skeletonarrownerf";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -19,6 +19,6 @@ public class SkeletonArrowNerf implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Say no to unnecessary log spam!");
+		LOGGER.info("SkeletonArrowNerf is (probably) working");
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "skeletonaimnerf",
+	"id": "skeletonarrownerf",
 	"version": "${version}",
 	"name": "Skeleton Arrow Nerf",
 	"description": "Makes skeleton arrows slower, so you can sidestep arrows without needing to sprint.",
@@ -19,7 +19,7 @@
 		]
 	},
 	"mixins": [
-		"skeletonaimnerf.mixins.json"
+		"skeletonarrownerf.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
