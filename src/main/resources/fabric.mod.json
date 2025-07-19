@@ -1,25 +1,25 @@
 {
 	"schemaVersion": 1,
-	"id": "skeletonarrownerf",
+	"id": "explosionsdontbreakitems",
 	"version": "${version}",
-	"name": "Skeleton Arrow Nerf",
-	"description": "Makes skeleton arrows slower, so you can sidestep arrows without needing to sprint.",
+	"name": "ExplosionsDontBreakItems",
+	"description": "Explosions dont break items, TNT mining is viable again",
 	"authors": [
 		"Jamma003"
 	],
 	"license": "MIT",
-	"icon": "assets/skeletonaimnerf/icon.png",
+	"icon": "assets/ExplosionsDontBreakItems/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.jamma003.skeletonarrownerf.SkeletonArrowNerf"
+			"net.jamma003.explosionsdontbreakitems.ExplosionsDontBreakItems"
 		],
 		"fabric-datagen": [
-			"net.jamma003.skeletonarrownerf.SkeletonArrowNerfDataGenerator"
+			"net.jamma003.explosionsdontbreakitems.ExplosionsDontBreakItemsDataGenerator"
 		]
 	},
 	"mixins": [
-		"skeletonarrownerf.mixins.json"
+		"explosionsdontbreakitems.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
